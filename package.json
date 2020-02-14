@@ -1,6 +1,6 @@
 {
-  "name": "node-git-current-branch",
-  "version": "2.0.1",
+  "name": "judgy-git-server-listen",
+  "version": "1.0.0",
   "description": "Get the current git branch name using Node.js and wrapper around express' listen method. Fork of WeiGrand",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FrancisBourgouin/node-git-current-branch.git"
+    "url": "git+https://github.com/FrancisBourgouin/judgy-git-server-listen.git"
   },
   "keywords": [
     "git",
@@ -20,7 +20,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FrancisBourgouin/node-git-current-branch/issues"
+    "url": "https://github.com/FrancisBourgouin/judgy-git-server-listen/issues"
   },
-  "homepage": "https://github.com/FrancisBourgouin/node-git-current-branch#readme"
+  "homepage": "https://github.com/FrancisBourgouin/judgy-git-server-listen#readme"
 }
