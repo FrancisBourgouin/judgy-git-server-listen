@@ -1,17 +1,31 @@
-# node-git-current-branch
-Get the current git branch name using Node.js
+# judgy-git-server-listen
+
+Get the current git branch name using Node.js and create a wrapper around the server listen instance to be judgy when coding.
 
 ## Install
 
 ```bash
-npm install node-git-current-branch --save
+npm install judgy-git-server-listen --save
 ```
+
 ## Usage
 
 ```javascript
-const getCurrentBranchName = require('node-git-current-branch');
+const { getCurrentBranchName } = require("judgy-git-server-listen");
 
 getCurrentBranchName(); // branch name or false
+```
+
+```javascript
+const { judgyServerListen } = require("judgy-git-server-listen");
+
+server.listen(PORT, () => {
+  console.log(`Listening on port ${PORT} in ${ENV} mode.`);
+});
+
+judgyServerListen(server, PORT, () => {
+  console.log(`Listening on port ${PORT} in ${ENV} mode.`);
+});
 ```
 
 ## API

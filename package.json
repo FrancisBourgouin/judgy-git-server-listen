@@ -1,14 +1,14 @@
 {
   "name": "node-git-current-branch",
   "version": "2.0.1",
-  "description": "Get the current git branch name using Node.js",
+  "description": "Get the current git branch name using Node.js and wrapper around express' listen method. Fork of WeiGrand",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WeiGrand/node-git-current-branch.git"
+    "url": "git+https://github.com/FrancisBourgouin/node-git-current-branch.git"
   },
   "keywords": [
     "git",
@@ -20,7 +20,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WeiGrand/node-git-current-branch/issues"
+    "url": "https://github.com/FrancisBourgouin/node-git-current-branch/issues"
   },
-  "homepage": "https://github.com/WeiGrand/node-git-current-branch#readme"
+  "homepage": "https://github.com/FrancisBourgouin/node-git-current-branch#readme"
 }
